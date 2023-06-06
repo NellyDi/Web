@@ -1,0 +1,35 @@
+h1{
+    color: rgba(7, 49, 4, 0.849);
+}
+body{
+    background-color: rgba(144, 238, 144, 0.192);
+}
+h2{
+    color:rgb(144, 211, 20)
+}
+a{
+    color: green;
+}
+a:hover{
+	color: gray;
+}
+img{ 
+	width: 250px;
+	margin-left: 100px;
+}
+.bigtext{
+    font-size: 0.8rem;
+    font-family: 'Cabana', sans-serif;
+}
+ul{
+	list-style-type: square;
+}
+@font-face {
+	font-family: 'Cabana';
+	src: url('../fonts/cabana.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/cabana.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/cabana.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/cabana.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/cabana.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/cabana.svg#cabana') format('svg'); /* Chrome < 4, Legacy iOS */
+}
